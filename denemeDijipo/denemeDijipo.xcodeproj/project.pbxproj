@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74681CE22B07E763007635AC /* denemeDijipoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74681CE12B07E763007635AC /* denemeDijipoApp.swift */; };
+		74681CE42B07E763007635AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74681CE32B07E763007635AC /* ContentView.swift */; };
+		74681CE62B07E765007635AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74681CE52B07E765007635AC /* Assets.xcassets */; };
+		74681CEA2B07E766007635AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74681CE92B07E766007635AC /* Preview Assets.xcassets */; };
+		74681CF42B07E766007635AC /* denemeDijipoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74681CF32B07E766007635AC /* denemeDijipoTests.swift */; };
+		74681CFE2B07E766007635AC /* denemeDijipoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74681CFD2B07E766007635AC /* denemeDijipoUITests.swift */; };
+		74681D002B07E766007635AC /* denemeDijipoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74681CFF2B07E766007635AC /* denemeDijipoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74681CF02B07E766007635AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74681CD62B07E763007635AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74681CDD2B07E763007635AC;
+			remoteInfo = denemeDijipo;
+		};
+		74681CFA2B07E766007635AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74681CD62B07E763007635AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74681CDD2B07E763007635AC;
+			remoteInfo = denemeDijipo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74681CDE2B07E763007635AC /* denemeDijipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denemeDijipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74681CE12B07E763007635AC /* denemeDijipoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denemeDijipoApp.swift; sourceTree = "<group>"; };
+		74681CE32B07E763007635AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74681CE52B07E765007635AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74681CE72B07E766007635AC /* denemeDijipo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = denemeDijipo.entitlements; sourceTree = "<group>"; };
+		74681CE92B07E766007635AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74681CEF2B07E766007635AC /* denemeDijipoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denemeDijipoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74681CF32B07E766007635AC /* denemeDijipoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denemeDijipoTests.swift; sourceTree = "<group>"; };
+		74681CF92B07E766007635AC /* denemeDijipoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denemeDijipoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74681CFD2B07E766007635AC /* denemeDijipoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denemeDijipoUITests.swift; sourceTree = "<group>"; };
+		74681CFF2B07E766007635AC /* denemeDijipoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = denemeDijipoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74681CDB2B07E763007635AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CEC2B07E766007635AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CF62B07E766007635AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74681CD52B07E763007635AC = {
+			isa = PBXGroup;
+			children = (
+				74681CE02B07E763007635AC /* denemeDijipo */,
+				74681CF22B07E766007635AC /* denemeDijipoTests */,
+				74681CFC2B07E766007635AC /* denemeDijipoUITests */,
+				74681CDF2B07E763007635AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74681CDF2B07E763007635AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74681CDE2B07E763007635AC /* denemeDijipo.app */,
+				74681CEF2B07E766007635AC /* denemeDijipoTests.xctest */,
+				74681CF92B07E766007635AC /* denemeDijipoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74681CE02B07E763007635AC /* denemeDijipo */ = {
+			isa = PBXGroup;
+			children = (
+				74681CE12B07E763007635AC /* denemeDijipoApp.swift */,
+				74681CE32B07E763007635AC /* ContentView.swift */,
+				74681CE52B07E765007635AC /* Assets.xcassets */,
+				74681CE72B07E766007635AC /* denemeDijipo.entitlements */,
+				74681CE82B07E766007635AC /* Preview Content */,
+			);
+			path = denemeDijipo;
+			sourceTree = "<group>";
+		};
+		74681CE82B07E766007635AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74681CE92B07E766007635AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74681CF22B07E766007635AC /* denemeDijipoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74681CF32B07E766007635AC /* denemeDijipoTests.swift */,
+			);
+			path = denemeDijipoTests;
+			sourceTree = "<group>";
+		};
+		74681CFC2B07E766007635AC /* denemeDijipoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74681CFD2B07E766007635AC /* denemeDijipoUITests.swift */,
+				74681CFF2B07E766007635AC /* denemeDijipoUITestsLaunchTests.swift */,
+			);
+			path = denemeDijipoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74681CDD2B07E763007635AC /* denemeDijipo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74681D032B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipo" */;
+			buildPhases = (
+				74681CDA2B07E763007635AC /* Sources */,
+				74681CDB2B07E763007635AC /* Frameworks */,
+				74681CDC2B07E763007635AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = denemeDijipo;
+			productName = denemeDijipo;
+			productReference = 74681CDE2B07E763007635AC /* denemeDijipo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74681CEE2B07E766007635AC /* denemeDijipoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74681D062B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipoTests" */;
+			buildPhases = (
+				74681CEB2B07E766007635AC /* Sources */,
+				74681CEC2B07E766007635AC /* Frameworks */,
+				74681CED2B07E766007635AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74681CF12B07E766007635AC /* PBXTargetDependency */,
+			);
+			name = denemeDijipoTests;
+			productName = denemeDijipoTests;
+			productReference = 74681CEF2B07E766007635AC /* denemeDijipoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74681CF82B07E766007635AC /* denemeDijipoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74681D092B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipoUITests" */;
+			buildPhases = (
+				74681CF52B07E766007635AC /* Sources */,
+				74681CF62B07E766007635AC /* Frameworks */,
+				74681CF72B07E766007635AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74681CFB2B07E766007635AC /* PBXTargetDependency */,
+			);
+			name = denemeDijipoUITests;
+			productName = denemeDijipoUITests;
+			productReference = 74681CF92B07E766007635AC /* denemeDijipoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74681CD62B07E763007635AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					74681CDD2B07E763007635AC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					74681CEE2B07E766007635AC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 74681CDD2B07E763007635AC;
+					};
+					74681CF82B07E766007635AC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 74681CDD2B07E763007635AC;
+					};
+				};
+			};
+			buildConfigurationList = 74681CD92B07E763007635AC /* Build configuration list for PBXProject "denemeDijipo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74681CD52B07E763007635AC;
+			productRefGroup = 74681CDF2B07E763007635AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74681CDD2B07E763007635AC /* denemeDijipo */,
+				74681CEE2B07E766007635AC /* denemeDijipoTests */,
+				74681CF82B07E766007635AC /* denemeDijipoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74681CDC2B07E763007635AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74681CEA2B07E766007635AC /* Preview Assets.xcassets in Resources */,
+				74681CE62B07E765007635AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CED2B07E766007635AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CF72B07E766007635AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74681CDA2B07E763007635AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74681CE42B07E763007635AC /* ContentView.swift in Sources */,
+				74681CE22B07E763007635AC /* denemeDijipoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CEB2B07E766007635AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74681CF42B07E766007635AC /* denemeDijipoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74681CF52B07E766007635AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74681CFE2B07E766007635AC /* denemeDijipoUITests.swift in Sources */,
+				74681D002B07E766007635AC /* denemeDijipoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74681CF12B07E766007635AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74681CDD2B07E763007635AC /* denemeDijipo */;
+			targetProxy = 74681CF02B07E766007635AC /* PBXContainerItemProxy */;
+		};
+		74681CFB2B07E766007635AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74681CDD2B07E763007635AC /* denemeDijipo */;
+			targetProxy = 74681CFA2B07E766007635AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74681D012B07E766007635AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74681D022B07E766007635AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		74681D042B07E766007635AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = denemeDijipo/denemeDijipo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"denemeDijipo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74681D052B07E766007635AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = denemeDijipo/denemeDijipo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"denemeDijipo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74681D072B07E766007635AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/denemeDijipo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/denemeDijipo";
+			};
+			name = Debug;
+		};
+		74681D082B07E766007635AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/denemeDijipo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/denemeDijipo";
+			};
+			name = Release;
+		};
+		74681D0A2B07E766007635AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = denemeDijipo;
+			};
+			name = Debug;
+		};
+		74681D0B2B07E766007635AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dijipo.denemeDijipoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = denemeDijipo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74681CD92B07E763007635AC /* Build configuration list for PBXProject "denemeDijipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74681D012B07E766007635AC /* Debug */,
+				74681D022B07E766007635AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74681D032B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74681D042B07E766007635AC /* Debug */,
+				74681D052B07E766007635AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74681D062B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74681D072B07E766007635AC /* Debug */,
+				74681D082B07E766007635AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74681D092B07E766007635AC /* Build configuration list for PBXNativeTarget "denemeDijipoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74681D0A2B07E766007635AC /* Debug */,
+				74681D0B2B07E766007635AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74681CD62B07E763007635AC /* Project object */;
+}
